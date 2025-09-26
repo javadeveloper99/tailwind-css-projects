@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@theme {
+  --padding-wrapper: 10px;
+}
+
+@layer components {
+  .btn-primary {
+    @apply rounded border-4 border-blue-300
+    hover:transition-transform hover:duration-700 hover:scale-105 hover:brightness-105
+    size-70;
+  }
+}
